@@ -1,0 +1,33 @@
+.topBar {
+	background: #fff;
+}
+.topBar #welcome a, .topBar #welcome, #currency, #currency a, .topBar .links a {
+	color: #000;
+}
+.navbar-inner {
+	background-color: #000 !important;
+}
+.navbar .nav > li > a {
+	color: #fff !important;
+}
+ul.btnGroup li.cartBt .cartBtn {
+	background: #f35d6b;
+}
+.box .box-heading a {
+	color: #f35d6b;
+}
+.box .box-heading a:hover {
+	color: #000;
+}
+.navbar .nav > li > a:hover {
+	background-color: #f35d6b;
+}
+.navbar .nav > li > a:hover .menu-desc {
+	color: #fff;
+}
+a.advancedSearch:hover, a.newsBtn {
+	background: #f35d6b;
+}
+header .button-search:hover {
+	background: #f35d6b url('../../image/button-search.png') center center no-repeat;
+}

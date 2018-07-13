@@ -1,0 +1,37 @@
+body {
+            /*background-image: none;*/
+        }
+        .container {
+            /*background-image: none;*/
+        }
+        body, p { font-family:'Open Sans', Tahoma, Geneva, sans-serif;
+            font-size: px;
+        }
+        h1, h2, h3, h4, .contentset, legend, .checkout-heading, .welcome {
+            font-family:'Open Sans', Tahoma, Geneva, sans-serif;
+            font-size: px;
+        }
+        input, input.button, a.button, .button, ul.btnGroup li.cartBt .cartBtn {
+            font-family:'Open Sans', Tahoma, Geneva, sans-serif;
+            font-size: px;
+        }
+        .box-category ul li a {
+            font-family:'Open Sans', Tahoma, Geneva, sans-serif;
+            font-size: px;
+        }
+        #menu ul li a {
+            font-family:'Open Sans', Tahoma, Geneva, sans-serif;
+            font-size: px;
+        }
+        .name a {
+            font-family:'Open Sans', Tahoma, Geneva, sans-serif;
+            font-size: px;
+        }
+        .price {
+            font-family:'Open Sans', Tahoma, Geneva, sans-serif !important;
+        }
+        .box-heading, .box .box-heading span, .box .box-heading a {
+            font-family:'Open Sans', Tahoma, Geneva, sans-serif !important;
+            font-size: px;
+        }
+        .banner {margin-bottom: 30px;}

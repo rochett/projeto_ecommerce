@@ -1,0 +1,21 @@
+input[type="text"]{font: 13px 'Open Sans', sans-serif; color: #333; background-color:#FFF}
+input[type="date"]{font: 13px 'Open Sans', sans-serif; color: #333; background-color:#FFF}
+input[type="time"]{font: 13px 'Open Sans', sans-serif; color: #333; background-color:#FFF}
+textarea{font: 13px 'Open Sans', sans-serif; color: #333; background-color:#FFF}
+input[type="submit"]{font: 13px 'Open Sans', sans-serif;}
+input[type="reset"]{font: 13px 'Open Sans', sans-serif;}
+input[type="search"]{font: 13px 'Open Sans', sans-serif;}
+input[type="file"]{font: 13px 'Open Sans', sans-serif;}
+button{font: 13px 'Open Sans', sans-serif;}
+.btn-chamado {
+	background-color: transparent;
+    border: none;
+    color: black;    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: 13px 'Open Sans', sans-serif;
+	outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}

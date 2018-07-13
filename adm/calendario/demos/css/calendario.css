@@ -1,0 +1,10 @@
+#calendar {
+    width: 100%;
+    height: 75%;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:14px;
+}

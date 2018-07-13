@@ -1,0 +1,92 @@
+/* CSS GLOBAL RESET */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	background-color: #FFF;
+}
+#apDiv1 {
+	position:absolute;
+	left:6px;
+	top:0px;
+	width:95%;
+	height:485px;
+	z-index:1;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+body,td,th {
+	color: #333;
+}
+td,th {
+	font-size:10px;}
+
+#apDiv1 div div p {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#apDiv1 div div p {
+	font-size: 10px;
+}
+#apDiv1 div div p {
+	font-size: 12px;
+}
+#apDiv1 div div p {
+	text-align: justify;
+}
+#apDiv1 div div h2 a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+}
+#apDiv1 div div h2 {
+	font-size: 22px;
+}
+#apDiv2 {
+	position:absolute;
+	left:673px;
+	top:160px;
+	width:296px;
+	height:167px;
+	z-index:2;
+}
+.cor_linha {color:#CCC; border-color:#CCC; }
+#apDiv1 div div ul li {
+	font-size: 12px;
+}
+#apDiv1 div div ul li {
+	font-size: 14px;
+}
+#apDiv1 div div ul li {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#apDiv1 div div ul li {
+	font-size: 14px;
+}
+#apDiv1 div div ul li p{
+	font-size: 12px;
+}
+#dirigivelimg{
+	border:#999 1px solid;
+	padding:10px;
+	width:330px !important;
+	height:223px !important;
+	background:#D4D4D4;
+}
+ul {
+list-style-image: url("images/yes.png");
+}
+
+a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+#toolbar {
+	padding: 10px 4px;
+}

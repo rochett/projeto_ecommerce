@@ -1,0 +1,184 @@
+#mainmenu ul.nav > li.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.megamenu .menu-icon {
+	background-position:center center;
+	padding-left:25px;
+	display:block;
+}
+.megamenu .menu-title{
+	display:block;
+	font-size: 17px;
+}	
+.megamenu .menu-desc{
+	display:block;
+	font-size:11px;
+	color: #888;
+}
+.megamenu  .menu-content{
+}
+
+
+.megamenu li.mega-group > a .caret{
+	display:none;
+}
+.nav.megamenu > li.homepage.open, .nav.megamenu > li.homepage:hover {
+	background: none;
+}
+.megamenu li.homepage a {
+    background: url(../image/magnum/icon-home.html) no-repeat scroll left center;
+    display: block;
+    overflow: hidden;
+    padding-left: 0;
+    text-indent: -9999em;
+    width: 20px;
+}
+
+.megamenu ul{
+	margin:0;
+	padding:0
+}
+.megamenu ul li{
+	list-style:none;
+}
+.nav.megamenu > li.open,
+.nav.megamenu > li:hover {
+    background: url(../image/magnum/bg_menu_hover.html) repeat-x scroll right center;
+}
+
+.nav.megamenu > li:last-child {
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+}
+.dropdown-submenu > a:after {
+ 
+    margin-right: -10px;
+    margin-top: -22px;
+}
+.megamenu .mega-col{
+	padding: 10px;
+}
+.megamenu .cols1{
+min-width:200px;
+}
+.megamenu .cols2{
+	min-width:500px;
+}
+.megamenu .cols3{
+	min-width:740px;
+}
+.fullwidth {
+
+}
+
+.megamenu .mega-group  > a .menu-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    line-height: 30px;
+    text-decoration: none;
+}
+.mega-col-inner a {
+	text-decoration: none;
+}
+.mega-col-inner a .menu-title{
+	font-size: 12px;
+	color: #000;
+	/*background: url(../image/arrow-menu.gif) left 6px no-repeat;
+	padding-left: 10px;*/
+}
+.mega-col-inner a .menu-title:hover {
+	color: #5dabf3;
+}
+.dropdown-submenu > a:after {
+	display: none !important;
+}
+.megamenu .mega-group  > a .menu-title {
+	background: transparent;
+}
+.megamenu .mega-group  > a .menu-title:hover {
+	color: #333;
+}
+.megamenu .mega-group  > a .menu-title .caret {
+	display: none;
+}
+
+.dropdown-submenu > a:after, .dropdown-submenu > a:before {
+    display: none;
+}
+#mainmenu .navbar .navbar-inner ul.nav li.open .dropdown-submenu a b.arrow, #mainmenu .navbar .navbar-inner ul.nav li.open .dropdown-submenu a b.caret {
+	display: none;}
+
+
+.nav.megamenu ul li.mega-group{
+ padding:0;
+ background: none;
+ border-bottom: none;
+ }
+ 
+.pavo-widget .menu-title {
+	font-size: 18px;
+	margin-bottom: 10px;
+	 color: #000;
+}
+
+/*
+	custom style 
+ */
+.navbar-inner {
+	background-color: #fff !important;
+	border: none !important;
+	border: 1px solid #000000 !important;
+	margin-bottom: 30px;
+	background-image: none !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+	padding: 0 !important;
+}
+.navbar .nav > li > a {
+	color: #000 !important;
+	text-shadow: none !important;
+	padding: 15px 20px 15px 20px !important;
+	border-right: 1px solid #000;
+}
+.navbar .nav > li > a:hover {
+	background-color: #000;
+	color: #fff !important;
+}
+.navbar .nav .dropdown-toggle .caret {
+	position: absolute !important;
+	right: 8px !important;
+	top: 23px !important;
+	margin-top: 0 !important;
+}
+.dropdown-menu {
+	border: none !important;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+	z-index: 100000
+}
+.product-block {
+	display: inline-block;
+	margin: 0;
+	margin-bottom: 40px;
+}
+.product-block .name, .product-block .image, .product-block .rating, .product-block .price {
+	margin-bottom: 5px;
+}
+.widget-product-list .image {
+	float: left;
+	margin-right: 10px;
+}
+div.w-banner {
+	margin: 0 20px 20px 0;
+	border: 1px solid #eee;
+	padding: 5px;
+}

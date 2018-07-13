@@ -1,0 +1,387 @@
+/* Large desktop */
+@media (max-width: 1200px) { 
+	.topBar .links a {
+		margin-left: 10px;
+	}
+	header #search input {
+		width: 230px;
+	}
+	#livesearch_search_results {
+		width: 263px;
+		left: 139px;
+	}
+	a.newsBtn {
+		padding: 12px 15px;
+		margin-right: 5px;
+	}
+	.newsletterWrap input {
+		padding: 10px;
+		margin-right: 10px;
+		width: 190px;
+	}
+	#column-left .noSlide .singleProduct, #column-right .noSlide .singleProduct {
+		width: 100%;
+	}
+	.box-category > ul > li a {
+		width: 82%;
+	}
+	.product-grid > div {
+		width: 210px;
+	}
+	.product-filter select {
+		width: 125px;
+	}
+	.product-list .left {
+		max-width: 30%;
+	}
+	.or {
+		clear: both
+	}
+	.product-info .cart ul.links {
+		float: left;
+		margin-left: 20px;
+	}
+	.banner {
+		margin-bottom: 30px;
+	}
+	.topBar .links a {
+		margin-left: 10px;
+	}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	body, td, th, input, textarea, select, a {
+		font-size: 13px;
+	}
+	a.advancedSearch {
+		padding: 0 5px;
+	}
+	header .button-search {
+		width: 30px;
+	}
+	header #search input {
+		padding: 0 5px;
+		width: 180px;
+	}
+	.cartImg {
+		display: none;
+	}
+	.nav-collapse, .nav-collapse.collapse {
+		height: 60px;
+		min-height: 60px !important;
+	}
+	.navbar .nav > li > a {
+		border-right: none;
+	}
+	.navbar .btn-navbar {
+		position: relative;
+		z-index: 10000;
+		height: 30px;
+	}
+	[class^="icon-"], [class*=" icon-"] {
+		margin-top: 8px;
+	}
+	.nav-collapse .nav>li>a, .nav-collapse .dropdown-menu a {
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+	}
+	.navbar .nav > li > a:hover {
+		background-color: #333;
+	}
+	.dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+		background-image: none !important;
+		background-color: transparent;
+	}
+	.nav-collapse .open>.dropdown-menu {
+		display: block;
+		background: #d9d7d7;
+		width: 100% !important;
+		margin: 0;
+	}
+	.nav-collapse .nav>li>a, .nav-collapse .dropdown-menu a {
+		padding: 2px 0;
+		font-weight: normal;
+	}
+	#column-left .noSlide .singleProduct .btnImgWrap, #column-right .noSlide .singleProduct .btnImgWrap {
+		clear: both;
+		float: none;
+		margin-right: 0;
+	}
+	.product-grid > div {
+		width: 156px;
+	}
+	.product-filter .display {
+		margin: 13px 0px 10px 10px;
+	}
+	.product-compare {
+		float: none;
+	}
+	.htabs {
+		height: auto;
+		overflow: hidden;
+	}
+	.menuDevices {
+		display: block;
+	}
+	.menuDevices select {
+		width: 96.7%;
+		padding: 1.5%;
+		background: #eee;
+	}
+	#menu {
+		display: none;
+	}
+	ul.socials {
+		float: right;
+		margin-bottom: 10px;
+		margin-left: 0;
+	}
+	.newsletterWrap {
+		padding: 20px 5% 20px 20%;
+		width: 75%;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	.container {
+		margin: 0 10px;
+		overflow: hidden
+	}
+	.topBar #welcome {
+		margin-bottom: 20px;
+	}
+	.topBar .links {
+		float: left;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.topBar .links a {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+	[class*="span"], .uneditable-input[class*="span"], .row-fluid [class*="span"] {
+		clear: both;
+	}
+	.topBlocks li + li {
+		margin-left: 0;
+	}
+	.topBlocks li {
+		margin-bottom: 0;
+	}
+	.topPart {
+		padding-bottom: 15px;
+	}
+	.logo {
+		margin: 0 auto 30px auto;
+		display: block
+	}
+	header #search {
+		height: 49px;
+	}
+	a.advancedSearch {
+		font-size: 0;
+		width: 47px;
+		background: #000 url(../image/ads.png) center no-repeat
+	}
+	a.advancedSearch:hover {
+		background: #ccc url(../image/ads.png) center no-repeat
+	}
+	header #search input {
+		width:  160px;
+		padding: 0 8px;
+	}
+	header #cart {
+		margin-top: 0;
+		margin-bottom: 20px;
+		z-index: 10;
+	}
+	.nav-collapse, .nav-collapse.collapse {
+		height: 60px;
+		min-height: 60px !important;
+	}
+	.navbar .btn-navbar {
+		position: relative;
+		z-index: 10000;
+		height: 30px;
+	}
+	[class^="icon-"], [class*=" icon-"] {
+		margin-top: 8px;
+	}
+	.nav-collapse .nav>li>a, .nav-collapse .dropdown-menu a {
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+	}
+	.navbar .nav > li > a:hover {
+		background-color: #333;
+	}
+	.dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+		background-image: none !important;
+		background-color: transparent;
+	}
+	.nav-collapse .open>.dropdown-menu {
+		display: block;
+		background: #d9d7d7;
+		width: 100% !important;
+		margin: 0;
+	}
+	.nav-collapse .nav>li>a, .nav-collapse .dropdown-menu a {
+		padding: 2px 0;
+		font-weight: normal;
+	}
+	.navbar .btn-navbar {
+		height: 40px;
+	}
+	.block {
+		text-align: center
+	}
+	.jcarousel-skin-opencart .jcarousel-container {
+		margin-left: 0
+	}
+	.newsletterWrap {
+		padding: 5%;
+		width: 80%;
+		text-align: center;
+	}
+	.newsletterImg {
+		top: inherit;
+		left:inherit;
+		position: relative;
+		margin: 0 auto 20px auto;
+	}
+	.newsletterWrap input {
+		padding: 20px;
+		margin-right: auto;
+		float: none;
+		margin-left: auto;
+		clear: both;
+		display: block;
+	}
+	a.newsBtn {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	.box .box-heading span {
+		line-height: 30px;
+	}
+	.marLeft30 {
+		margin-left: 0
+	}
+	.box .box-heading a, .box .box-heading {
+		font-size: 22px;
+	}
+	header #cart .content {
+		width: 250px
+	}
+	div[class*="pavcol"] {
+		width: 100%;
+		clear: both;
+		margin: 0 0 30px 0;
+	}
+	#powered {
+		padding: 20px 0 0 20px;
+	}
+	.product-compare {
+		margin-left: 10px;
+	}
+	.product-filter .display {
+		margin:10px;
+		float: left;
+	}
+	.product-list, .product-grid {
+		margin-left: 0;
+	}
+	.product-list .left, .product-list .right, .left, .right {
+		width: 100% !important;
+		max-width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+		clear: both
+	}
+	.product-info > .left, .product-info > .right {
+		float: left;
+		margin-right: 0;
+		width: 100%;
+	}
+	.cloud-zoom-big {
+		left: 0 !important
+	}
+	.htabs {
+		height: auto;
+		overflow: hidden;
+	}
+	input.large-field, select.large-field {
+		width: 100%
+	}
+	.blog-header .created {
+		height: auto
+	}
+	#livesearch_search_results {
+		left: 0;
+		z-index: 1000;
+	}
+	.menuDevices {
+		display: block;
+	}
+	.menuDevices select {
+		width: 99.7%;
+		padding: 1.5%;
+		background: #eee;
+		height: 50px;
+	}
+	#menu {
+		display: none;
+	}
+	ul.socials {
+		float: left;
+		margin-bottom: 10px;
+		margin-left: 0;
+	}
+	.product-compare {
+		clear: both
+	}
+	.product-filter .display {
+		clear: both
+	}
+	.product-list > div.ifList {
+		width: 270px
+	}
+	.navbar .nav > li > a {
+		border-right: none;
+	}
+	#currency {
+		clear: both
+	}
+	.wReview {
+	width: 100%;
+	float: none;
+	background: #eee;
+	padding: 2%;
+	margin-bottom: 20px;
+	}
+	.reviewsList {
+	width: 100%;
+	float: none;
+	}
+}
+
+/*
+ * Making sub menu showing in hover instead of on click
+ */
+@media (min-width: 979px)  {
+	.dropdown-menu .sub-menu {
+		position: absolute;
+		top: 0;
+		visibility: hidden;
+		margin-top: -1px;
+	}
+	.dropdown-menu li:hover .sub-menu {
+	    visibility: visible;
+	}
+	.dropdown:hover .dropdown-menu {
+	    display: block;
+	}
+}
