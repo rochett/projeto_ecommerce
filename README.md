@@ -3,38 +3,38 @@
 ## Introdução
 
 A LojaTeste é composta por duas aplicações distintas: loja e administração
-Loja: localhost/loja_teste/
-Administração: localhost/loja_teste/adm/
+- Loja: localhost/loja_teste/
+- Administração: localhost/loja_teste/adm/
 
 Configuração do ambiente de desenvolvimento:
 
-Servidor: 127.0.0.1 via TCP/IP
-Tipo de servidor: MariaDB
-Versão do servidor: 10.1.26-MariaDB - mariadb.org binary distribution
-Versão do protocolo: 10
-Utilizador: root@localhost
-Conjunto de caracteres do servidor: UTF-8 Unicode (utf8)
-Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9
-Versão do cliente de base de dados: libmysql - mysqlnd 5.0.12-dev - 20150407 - $Id: b396954eeb2d1d9ed7902b8bae237b287f21ad9e $
-Versão do PHP: 7.1.9
-IDEs utilizadas: PHPStorm 2018.1.6, Dreamweaver CS6
+- Servidor: 127.0.0.1 via TCP/IP
+- Tipo de servidor: MariaDB
+- Versão do servidor: 10.1.26-MariaDB - mariadb.org binary distribution
+- Versão do protocolo: 10
+- Utilizador: root@localhost
+- Conjunto de caracteres do servidor: UTF-8 Unicode (utf8)
+- Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9
+- Versão do cliente de base de dados: libmysql - mysqlnd 5.0.12-dev - 20150407 - $Id: b396954eeb2d1d9ed7902b8bae237b287f21ad9e $
+- Versão do PHP: 7.1.9
+- IDEs utilizadas: PHPStorm 2018.1.6, Dreamweaver CS6
 
 ## Instalação
 
 Em /loja_teste/adm/data/ há o arquivo "schema.sql", que contém as definições do banco
 e tabelas do projeto. 
-Banco: data_loja
-SGBD: MySQL
-user: root
-pass:
+- Banco: data_loja
+- SGBD: MySQL
+- user: root
+- pass:
 
 Crie o banco "data_loja" e, a seguir, importe o arquivo "schema.sql" para o mesmo.
 
 ## Acessando a administração
 
 Em localhost/loja_teste/adm/ utilize:
-login: rochett.tavares@gmail.com
-senha: whx01a9bx04
+- login: rochett.tavares@gmail.com
+- senha: whx01a9bx04
 
 ## Regras de Negócio
 
@@ -72,17 +72,17 @@ Observações
 ## Implementações
 
 Além de contemplar as regras de negócio acima, o projeto apresenta alguns "enhancements":
-Rotina de Backup;
-Rotina de Upload de Imagens e Vídeos;
-Controle da Quantidade do Produto;
-Log de Acesso;
-Cadastro de Newsletter, Contato e Revenda;
-Cadastro de Lojas;
-Cronograma de Eventos;
-Controle dos Pedidos;
-Painel Automático para exibição de novos pedidos realizados em tempo real;
-Banco de Soluções;
-Cadastros Auxiliares;
-Configuração de ambiente da Loja e da Administração
+- Rotina de Backup;
+- Rotina de Upload de Imagens e Vídeos;
+- Controle da Quantidade do Produto;
+- Log de Acesso;
+- Cadastro de Newsletter, Contato e Revenda;
+- Cadastro de Lojas;
+- Cronograma de Eventos;
+- Controle dos Pedidos;
+- Painel Automático para exibição de novos pedidos realizados em tempo real;
+- Banco de Soluções;
+- Cadastros Auxiliares;
+- Configuração de ambiente da Loja e da Administração
 
 
