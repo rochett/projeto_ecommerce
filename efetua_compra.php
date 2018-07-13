@@ -38,6 +38,9 @@ $data_cadastro = date("Y-m-d");
 $timestamp = mktime(date("H")-2, date("i"), date("s"), 0);
 $hora_cadastro = gmdate("H:i:s", $timestamp);
 
+$compra[1] = utf8_decode($compra[1]);
+$compra[8] = utf8_decode($compra[8]);
+
 $sql = "INSERT INTO pedidos (nome, email, cod_produto, descricao, cor, tamanho, cep, quantidade, tipo_entrega, prazo_entrega, valor_frete, valor_produto, dat_cadastro, hor_cadastro) 
 VALUES ('$nome', '$emailto', '$compra[0]', '$compra[1]', '$compra[8]', '$compra[9]', '$compra[2]', '$compra[3]', '$compra[4]', '$compra[5]', '$compra[6]', '$compra[7]', '$data_cadastro', '$hora_cadastro')";
 $ResultLog = mysqli_query($conectar, $sql);
