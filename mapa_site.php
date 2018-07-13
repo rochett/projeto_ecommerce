@@ -1,7 +1,7 @@
 <?php include('config/header.php'); ?>
 <div class="span12">
     <div id="content">
-    	<div class="breadcrumb">
+        <div class="breadcrumb">
             <a href="./">Home</a>
             &raquo; Mapa do Site
         </div>
@@ -16,14 +16,10 @@
                             <li><a href="moda.php?var=<?php echo $tendencias;?>">Tendências</a></li>
                         </ul>
                     </li>
-                    <li>Mídia
-                        <ul>
-                            <li><a href="fotos.php">Fotos</a></li>
-                            <li><a href="videos.php">Vídeos</a></li>
-                        </ul>
-                    </li>
                     <li><a href="loja.php?var=<?php echo $row_RecordsetLoja['id'];?>">Informações Especiais</a></li>
-                    <li><a href="moda.php?var=<?php echo $dicas;?>">Ligamos pra Você</a></li>
+                    <li><a href="moda.php?var=<?php echo $dicas;?>">Ligamos pra Você!</a></li>
+                    <li><a href="contatorevenda.php?var=<?php echo $revenda; ?>">Revenda</a></li>
+                    <li><a href="store.php?var=<?php echo $parceiros; ?>">Parceiros</a></li>
                     <li><a href="store.php?var=<?php echo $quem_somos;?>">Quem Somos</a></li>
                 </ul>
             </div>
@@ -38,7 +34,6 @@
                         </ul>
                     </li>
                     <li><a href="store.php?var=<?php echo $marcas;?>">Marcas</a></li>
-                    <li><a href="store.php?var=<?php echo $parceiros;?>">Parceiros</a></li>
                     <li>Novidades
                         <ul>
                             <li><a href="newsletter.php?var=<?php echo $newsletter;?>">Newsletter</a></li>
